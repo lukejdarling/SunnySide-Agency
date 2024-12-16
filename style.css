@@ -1,0 +1,130 @@
+/*
+
+
+GLOBAL STYLES
+
+
+*/ 
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3{
+    font-family: "Fraunces", serif;
+}
+
+p{
+    font-family: "Barlow", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*
+
+
+COLORS
+
+
+*/ 
+
+:root{
+
+    --clr-soft-red: hsl(7, 99%, 70%);
+    --clr-yellow: hsl(51, 100%, 49%);
+    --clr-dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --clr-dark-blue: hsl(198, 62%, 26%);
+    --clr-dark-moderate-cyan: hsl(168, 34%, 41%);
+    --clr-baby-blue: hsl(199, 86%, 71%);
+
+    --clr-very-dark-desaturated-blue: hsl(211, 28%, 19%);
+    --clr-very-dark-greyish-blue: hsl(210, 9%, 39%);
+    --clr-dark-greyish-blue: hsl(232, 10%, 55%);
+    --clr-greyish-blue: hsl(210, 4%, 67%);
+    --clr-white: hsl(0, 0%, 100%);
+
+}
+
+/*
+
+
+HEADER SHOWCASE
+
+
+*/ 
+
+.header-showcase{
+    background: url(./images/desktop/image-header.jpg) no-repeat center center/cover;
+    height: 800px;
+    position: relative;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.main-nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    color: var(--clr-white);
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0rem 1rem;
+}
+
+.contact-link{
+    color: var(--clr-very-dark-desaturated-blue);
+    background: var(--clr-white);
+    padding: 0.8rem 2rem;
+    border-radius: 28px;
+    font-family: "Fraunces", serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+
+.contact-link:hover{
+    color: var(--clr-white);
+    background: var(--clr-baby-blue);
+}
+
+.showcase-header{
+    text-align: center;
+    color: var(--clr-white);
+    font-size: 56px;
+    font-weight: 900;
+    letter-spacing: 8.75px;
+    padding-top: 6rem;
+    text-transform: uppercase;
+}
+
+.down-arrow-container{
+    text-align: center;
+    margin-top: 8rem;
+}
